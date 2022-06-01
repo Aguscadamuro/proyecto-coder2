@@ -1,0 +1,46 @@
+.navbar {
+    background: $color-principal;
+    height: 100px;
+    width: 100%;
+}
+.nav_logo {
+    position: absolute;
+    padding: 20px 40px;
+}
+.logo {
+    height: 70px;
+    width: 90px;
+}
+.nav_ul {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+.nav_li {
+    padding: 35px 1px;
+} 
+ul li a {
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 3px;
+
+}
+li a.active, li a:hover {
+    /* background: rgb(183, 77, 77); */
+    background: $color-secundario;
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: $color-secundario;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}

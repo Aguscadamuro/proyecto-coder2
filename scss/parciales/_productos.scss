@@ -1,0 +1,24 @@
+/* estilos productos */
+.bodyProductos {
+    background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tituloProductos {
+    height: 80px;
+    background: $color-secundario;
+    font-size: 2.5rem;
+    color: #0a1a2a;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.subtituloProductos {
+    color: #0a1a2a;
+    background: $color-secundario;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0px auto 30px auto;
+    padding: 10px ;
+}

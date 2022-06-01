@@ -1,0 +1,92 @@
+@media (max-width:1023px) {
+    .nav_logo {
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    .contenido_contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaContacto {
+        width: 80%;
+    }
+    .subtituloProductos {
+        font-size: 1.1rem;
+    }
+    .subtituloServicios {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 858px) {
+    .cajaContacto {
+        width: 80%;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .nav_ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: $color-secundario;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_li {
+       display: block;
+       margin-bottom: 100px;
+       line-height: 1px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    li a:hover, li a.active {
+        background: none;
+        color: $color-principal;
+    }
+    #check:checked ~ .nav_ul {
+        left:0;
+    }
+    .footer .grupo_1 {
+        width: 85%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 35px 0px;
+    }
+    .tituloContacto {
+        font-size: 1.6rem;
+    }
+    .subtituloProductos {
+        font-size: 1rem;
+    }
+    .subtituloServicios {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:480px) {
+    .cajaContacto {
+        width: 100%;
+    }
+    .tituloContacto {
+        font-size: 1.4rem;
+    }
+    .subtituloProductos {
+        font-size: 0.8rem;
+    }
+    .subtituloServicios {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:375px) {
+    .tituloContacto {
+        font-size: 1.2rem;
+    }
+    
+}

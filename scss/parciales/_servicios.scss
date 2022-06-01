@@ -1,0 +1,26 @@
+/* estilos servicios */
+.bodyServicios {
+    /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
+    background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tituloServicios {
+    height: 80px;
+    padding: auto;
+    background: $color-secundario;
+    font-size: 2.5rem;
+    color: #0a1a2a;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+}
+.subtituloServicios {
+    color: #0a1a2a;
+    background: $color-secundario;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0px auto 30px auto;
+    padding: 10px;
+}
