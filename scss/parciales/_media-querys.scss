@@ -18,6 +18,12 @@
     .subtituloServicios {
         font-size: 1.1rem;
     }
+    .container3 {
+        display: grid;
+        gap: 15px;
+        grid-auto-rows: 36rem;
+        width: 95%;
+      }
 }
 @media (max-width: 858px) {
     .cajaContacto {
@@ -68,6 +74,10 @@
     .subtituloServicios {
         font-size: 1rem;
     }
+    .container3 {
+        grid-auto-rows: 35rem;
+        width: 93%;
+      }
 }
 
 @media (max-width:480px) {
@@ -78,11 +88,15 @@
         font-size: 1.4rem;
     }
     .subtituloProductos {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .subtituloServicios {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
+    .container3 {
+        grid-auto-rows: 33rem;
+        width: 91%;
+      }
 }
 @media (max-width:375px) {
     .tituloContacto {
