@@ -80,7 +80,7 @@ li a.active, li a:hover {
 .container3 {
   display: grid;
   gap: 15px;
-  grid-auto-rows: 35rem;
+  grid-auto-rows: 36rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   width: 95%;
 }
@@ -163,7 +163,7 @@ li a.active, li a:hover {
 }
 
 .contenedor2 h2 {
-  border: 2px solid gray;
+  border-bottom: 2px solid gray;
   text-align: center;
 }
 
@@ -355,6 +355,19 @@ li a.active, li a:hover {
   column-gap: 0px;
 }
 
+@media (min-width: 1024) {
+  .container2 {
+    grid-auto-rows: 30rem;
+    width: 96%;
+  }
+  .container3 {
+    display: grid;
+    gap: 15px;
+    grid-auto-rows: 36rem;
+    width: 95%;
+  }
+}
+
 @media (max-width: 1023px) {
   .nav_logo {
     padding-left: 20px;
@@ -375,6 +388,10 @@ li a.active, li a:hover {
   .subtituloServicios {
     font-size: 1.1rem;
   }
+  .container2 {
+    grid-auto-rows: 30rem;
+    width: 96%;
+  }
   .container3 {
     display: grid;
     gap: 15px;
@@ -391,12 +408,12 @@ li a.active, li a:hover {
     display: block;
   }
   .nav_ul {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     background: #69a3a3;
     top: 100px;
-    left: -100%;
+    right: -110%;
     text-align: center;
     transition: all .5s;
     display: flex;
@@ -404,8 +421,7 @@ li a.active, li a:hover {
   }
   .nav_li {
     display: block;
-    margin-bottom: 100px;
-    line-height: 1px;
+    height: 100%;
   }
   nav ul li a {
     font-size: 20px;
@@ -432,6 +448,10 @@ li a.active, li a:hover {
   .subtituloServicios {
     font-size: 1rem;
   }
+  .container2 {
+    grid-auto-rows: 29rem;
+    width: 94%;
+  }
   .container3 {
     grid-auto-rows: 35rem;
     width: 93%;
@@ -451,6 +471,10 @@ li a.active, li a:hover {
   .subtituloServicios {
     font-size: 1rem;
   }
+  .container2 {
+    grid-auto-rows: 28rem;
+    width: 91%;
+  }
   .container3 {
     grid-auto-rows: 33rem;
     width: 91%;
@@ -460,6 +484,21 @@ li a.active, li a:hover {
 @media (max-width: 375px) {
   .tituloContacto {
     font-size: 1.2rem;
+  }
+  .nav_li {
+    display: block;
+    line-height: 5px;
+  }
+  .nav_ul {
+    display: fixed;
+  }
+  .container2 {
+    grid-auto-rows: 28rem;
+    width: 89%;
+  }
+  .container3 {
+    grid-auto-rows: 33rem;
+    width: 89%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
