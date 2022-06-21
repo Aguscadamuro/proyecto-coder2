@@ -1,16 +1,16 @@
-@media (min-width:1024) {
+@media (min-width: 1024) {
     .container2 {
         grid-auto-rows: 30rem;
         width: 96%;
-      }
+    }
     .container3 {
         display: grid;
         gap: 15px;
         grid-auto-rows: 36rem;
         width: 95%;
-      }
+    }
 }
-@media (max-width:1023px) {
+@media (max-width: 1023px) {
     .nav_logo {
         padding-left: 20px;
     }
@@ -33,13 +33,13 @@
     .container2 {
         grid-auto-rows: 30rem;
         width: 96%;
-      }
+    }
     .container3 {
         display: grid;
         gap: 15px;
         grid-auto-rows: 36rem;
         width: 95%;
-      }
+    }
 }
 @media (max-width: 858px) {
     .cajaContacto {
@@ -54,25 +54,26 @@
         height: 60vh;
         background: $color-secundario;
         top: 100px;
-        right: -110%;
+        left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all 0.5s;
         display: flex;
         flex-direction: column;
     }
     .nav_li {
-       display: block;
-       height: 100%;
+        display: block;
+        height: 100%;
     }
     nav ul li a {
         font-size: 20px;
     }
-    li a:hover, li a.active {
+    li a:hover,
+    li a.active {
         background: none;
         color: $color-principal;
     }
     #check:checked ~ .nav_ul {
-        left:0;
+        left: 0;
     }
     .footer .grupo_1 {
         width: 85%;
@@ -92,14 +93,14 @@
     .container2 {
         grid-auto-rows: 29rem;
         width: 94%;
-      }
+    }
     .container3 {
         grid-auto-rows: 35rem;
         width: 93%;
-      }
+    }
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
     .cajaContacto {
         width: 100%;
     }
@@ -115,29 +116,29 @@
     .container2 {
         grid-auto-rows: 28rem;
         width: 91%;
-      }
+    }
     .container3 {
         grid-auto-rows: 33rem;
         width: 91%;
-      }
+    }
 }
-@media (max-width:375px) {
+@media (max-width: 375px) {
     .tituloContacto {
         font-size: 1.2rem;
     }
     .nav_li {
         display: block;
         line-height: 5px;
-     }
-     .nav_ul {
+    }
+    .nav_ul {
         display: fixed;
-     }
-     .container2 {
+    }
+    .container2 {
         grid-auto-rows: 28rem;
         width: 89%;
-      }
-     .container3 {
+    }
+    .container3 {
         grid-auto-rows: 33rem;
         width: 89%;
-      }
+    }
 }
