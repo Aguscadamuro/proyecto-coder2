@@ -151,13 +151,33 @@ li a:hover {
 .footer .grupo_2 small {
     font-size: 15px;
 }
-
+.contenidoEmpresa {
+    background: #fff;
+    width: 60%;
+    margin: auto;
+}
+.tituloEmpresa {
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+.subtituloEmpresa {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    line-height: 25px;
+}
 /* .contenedor2 {
     overflow: hidden;
     position: relative;
     margin: 20px 2px 100px 0px;
     border-radius: 15px;
 } */
+.contenedor2 {
+    background: rgb(237, 237, 237);
+}
 .contenedor2 img {
     width: 100%;
     height: 100%;
@@ -319,6 +339,7 @@ li {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .input_contacto,
 .text_contacto {
     width: 100%;
@@ -328,6 +349,7 @@ li {
     font-size: 17px;
     border: none;
 }
+
 .text_contacto {
     min-height: 100px;
     max-height: 200px;
@@ -369,6 +391,12 @@ li {
         grid-auto-rows: 36rem;
         width: 95%;
     }
+    .tituloEmpresa {
+        font-size: 17px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -400,6 +428,12 @@ li {
         gap: 15px;
         grid-auto-rows: 36rem;
         width: 95%;
+    }
+    .tituloEmpresa {
+        font-size: 16px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
     }
 }
 
@@ -460,6 +494,12 @@ li {
         grid-auto-rows: 35rem;
         width: 93%;
     }
+    .tituloEmpresa {
+        font-size: 15px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -483,6 +523,12 @@ li {
         grid-auto-rows: 33rem;
         width: 91%;
     }
+    .tituloEmpresa {
+        font-size: 12px;
+    }
+    .subtituloEmpresa {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -503,6 +549,13 @@ li {
     .container3 {
         grid-auto-rows: 33rem;
         width: 89%;
+    }
+    .tituloEmpresa {
+        font-size: 12px;
+    }
+    .subtituloEmpresa {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
 /*# sourceMappingURL=estilos.css.map */

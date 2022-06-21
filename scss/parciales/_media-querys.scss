@@ -9,6 +9,12 @@
         grid-auto-rows: 36rem;
         width: 95%;
     }
+    .tituloEmpresa {
+        font-size: 17px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
+    }
 }
 @media (max-width: 1023px) {
     .nav_logo {
@@ -39,6 +45,12 @@
         gap: 15px;
         grid-auto-rows: 36rem;
         width: 95%;
+    }
+    .tituloEmpresa {
+        font-size: 16px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
     }
 }
 @media (max-width: 858px) {
@@ -98,6 +110,12 @@
         grid-auto-rows: 35rem;
         width: 93%;
     }
+    .tituloEmpresa {
+        font-size: 15px;
+    }
+    .subtituloEmpresa {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -121,6 +139,12 @@
         grid-auto-rows: 33rem;
         width: 91%;
     }
+    .tituloEmpresa {
+        font-size: 12px;
+    }
+    .subtituloEmpresa {
+        font-size: 10px;
+    }
 }
 @media (max-width: 375px) {
     .tituloContacto {
@@ -140,5 +164,9 @@
     .container3 {
         grid-auto-rows: 33rem;
         width: 89%;
+    }
+    .subtituloEmpresa {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
