@@ -1,6 +1,6 @@
-/* estilos contacto */ 
+/* estilos contacto */
 .bodyContacto {
-    background-image: url(../imagenes/31-311336_m.jpg);
+    background-image: url(../imagenes/31-311336_m-min.jpg);
     /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
     background-size: cover;
     background-attachment: fixed;
@@ -12,7 +12,7 @@
     font-size: 1.6rem;
     color: #0a1a2a;
     text-align: center;
-    padding: 15px ;
+    padding: 15px;
 }
 .cajaContacto {
     width: 500px;
@@ -30,12 +30,6 @@
     margin: 0;
     font-size: 30px;
     margin-bottom: 20px;
-}
-.input_contacto, .text_contacto{
-    font-size: 15px;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
 }
 .text_contacto {
     min-height: 100px;
@@ -60,6 +54,6 @@
 }
 .contenido_contacto {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 0px;
 }

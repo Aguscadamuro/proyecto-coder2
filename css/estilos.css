@@ -1,154 +1,155 @@
 * {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  background: #0d2033;
-  height: 100px;
-  width: 100%;
+    background: #0d2033;
+    height: 100px;
+    width: 100%;
 }
 
 .nav_logo {
-  position: absolute;
-  padding: 20px 40px;
+    position: absolute;
+    padding: 20px 40px;
 }
 
 .logo {
-  height: 70px;
-  width: 90px;
+    height: 70px;
+    width: 90px;
 }
 
 .nav_ul {
-  font-weight: bold;
-  font-size: 20px;
-  display: flex;
-  justify-content: end;
-  margin-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
 }
 
 .nav_li {
-  padding: 35px 1px;
+    padding: 35px 1px;
 }
 
 ul li a {
-  color: #fff;
-  padding: 7px 30px;
-  border-radius: 3px;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 3px;
 }
 
-li a.active, li a:hover {
-  /* background: rgb(183, 77, 77); */
-  background: #69a3a3;
-  transition: .5s;
+li a.active,
+li a:hover {
+    /* background: rgb(183, 77, 77); */
+    background: #69a3a3;
+    transition: 0.5s;
 }
 
 .checkbtn {
-  font-size: 30px;
-  color: #69a3a3;
-  float: right;
-  line-height: 100px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
+    font-size: 30px;
+    color: #69a3a3;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 #check {
-  display: none;
+    display: none;
 }
 
 .container img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .container2 {
-  display: grid;
-  gap: 15px;
-  grid-auto-rows: 30rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  width: 95%;
+    display: grid;
+    gap: 15px;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    width: 95%;
 }
 
 .container3 {
-  display: grid;
-  gap: 15px;
-  grid-auto-rows: 36rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  width: 95%;
+    display: grid;
+    gap: 15px;
+    grid-auto-rows: 36rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    width: 95%;
 }
 
 .footer {
-  margin: 0;
-  width: 100%;
-  background: #0a141d;
+    margin: 0;
+    width: 100%;
+    background: #0a141d;
 }
 
 .footer .grupo_1 {
-  width: 100%;
-  /* max-width: 1200px; */
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 70px;
-  padding: 45px 0px;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    padding: 45px 0px;
 }
 
 .footer .grupo_1 .box figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer .grupo_1 .box figure img {
-  width: 250px;
+    width: 250px;
 }
 
 .footer .grupo_1 .box h2 {
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .footer .grupo_1 .box p {
-  color: #efefef;
-  margin-bottom: 10px;
+    color: #efefef;
+    margin-bottom: 10px;
 }
 
 .footer .grupo_1 .redes a {
-  display: inline-block;
-  text-decoration: none;
-  width: 45px;
-  line-height: 45px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: #0d2033;
-  text-align: center;
-  transition: all 300ms ease;
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
 }
 
 .footer .grupo_1 .redes a:hover {
-  color: #69a3a3;
+    color: #69a3a3;
 }
 
 .footer .grupo_2 {
-  background-color: #0a1a2a;
-  padding: 15px 10px;
-  text-align: center;
-  color: #fff;
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
 }
 
 .footer .grupo_2 small {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 /* .contenedor2 {
@@ -158,347 +159,350 @@ li a.active, li a:hover {
     border-radius: 15px;
 } */
 .contenedor2 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .contenedor2 h2 {
-  border-bottom: 2px solid gray;
-  text-align: center;
+    border-bottom: 2px solid gray;
+    text-align: center;
 }
 
 .contenedor2 p {
-  margin: 5px;
-  text-align: center;
+    margin: 5px;
+    text-align: center;
 }
 
 /* estilos servicios */
 .bodyServicios {
-  /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
-  background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
+    background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .tituloServicios {
-  height: 80px;
-  padding: auto;
-  background: #69a3a3;
-  font-size: 2.5rem;
-  color: #0a1a2a;
-  text-align: center;
-  margin: 0px auto;
-  padding: 15px;
+    height: 80px;
+    padding: auto;
+    background: #69a3a3;
+    font-size: 2.5rem;
+    color: #0a1a2a;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
 }
 
 .subtituloServicios {
-  color: #0a1a2a;
-  background: #69a3a3;
-  text-align: center;
-  font-size: 1.3rem;
-  margin: 0px auto 30px auto;
-  padding: 10px;
+    color: #0a1a2a;
+    background: #69a3a3;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0px auto 30px auto;
+    padding: 10px;
 }
 
 /* estilos productos */
 .bodyProductos {
-  background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    background-image: url(../imagenes/Combine_harvester_Fields_Tractor_Work_587799_1280x853-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .tituloProductos {
-  height: 80px;
-  background: #69a3a3;
-  font-size: 2.5rem;
-  color: #0a1a2a;
-  text-align: center;
-  margin: 0 auto;
-  padding: 15px;
+    height: 80px;
+    background: #69a3a3;
+    font-size: 2.5rem;
+    color: #0a1a2a;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 .subtituloProductos {
-  color: #0a1a2a;
-  background: #69a3a3;
-  text-align: center;
-  font-size: 1.3rem;
-  margin: 0px auto 30px auto;
-  padding: 10px;
+    color: #0a1a2a;
+    background: #69a3a3;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0px auto 30px auto;
+    padding: 10px;
 }
 
 .card {
-  width: 100%;
-  margin: 20px;
-  border-radius: 20px;
-  overflow: hidden;
-  background: #0d2033;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
+    width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #0d2033;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
 .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
 
 .card img {
-  width: 100%;
-  height: 250px;
+    width: 100%;
+    height: 250px;
 }
 
 .card .contenido {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
 
-.card .contenido p, li {
-  line-height: 1.5;
-  color: #7e7d7d;
+.card .contenido p,
+li {
+    line-height: 1.5;
+    color: #7e7d7d;
 }
 
 .card .contenido h3 {
-  color: #fff;
-  font-weight: 600;
-  margin-bottom: 13px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 13px;
 }
 
 .card .contenido a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  transition: all 400ms ease;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 400ms ease;
 }
 
 .card .contenido a:hover {
-  background: #69a3a3;
-  color: #ffff;
+    background: #69a3a3;
+    color: #ffff;
 }
 
 /* estilos contacto */
 .bodyContacto {
-  background-image: url(../imagenes/31-311336_m.jpg);
-  /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0;
+    background-image: url(../imagenes/31-311336_m-min.jpg);
+    /* background-image: url(../imagenes/Farm-field-tractor.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 }
 
 .tituloContacto {
-  height: 80px;
-  background: #69a3a3;
-  font-size: 1.6rem;
-  color: #0a1a2a;
-  text-align: center;
-  padding: 15px;
+    height: 80px;
+    background: #69a3a3;
+    font-size: 1.6rem;
+    color: #0a1a2a;
+    text-align: center;
+    padding: 15px;
 }
 
 .cajaContacto {
-  width: 500px;
-  margin: 30px auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 8px;
-  font-family: monospace;
+    width: 500px;
+    margin: 30px auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-family: monospace;
 }
 
 .titulo_cajaContacto {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.input_contacto, .text_contacto {
-  font-size: 15px;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 10px;
+.input_contacto,
+.text_contacto {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
 }
 
 .text_contacto {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-  min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .boton_contacto {
-  background: #69a3a3;
-  color: #fff;
-  font-weight: bold;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 10px;
-  cursor: pointer;
-  transition: all 400ms ease;
+    background: #69a3a3;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 400ms ease;
 }
 
 .boton_contacto:hover {
-  transform: translateY(-3%);
-  background: #fff;
-  color: #69a3a3;
+    transform: translateY(-3%);
+    background: #fff;
+    color: #69a3a3;
 }
 
 .contenido_contacto {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
 }
 
 @media (min-width: 1024) {
-  .container2 {
-    grid-auto-rows: 30rem;
-    width: 96%;
-  }
-  .container3 {
-    display: grid;
-    gap: 15px;
-    grid-auto-rows: 36rem;
-    width: 95%;
-  }
+    .container2 {
+        grid-auto-rows: 30rem;
+        width: 96%;
+    }
+    .container3 {
+        display: grid;
+        gap: 15px;
+        grid-auto-rows: 36rem;
+        width: 95%;
+    }
 }
 
 @media (max-width: 1023px) {
-  .nav_logo {
-    padding-left: 20px;
-  }
-  nav ul li a {
-    font-size: 18px;
-  }
-  .contenido_contacto {
-    display: flex;
-    flex-direction: column;
-  }
-  .cajaContacto {
-    width: 80%;
-  }
-  .subtituloProductos {
-    font-size: 1.1rem;
-  }
-  .subtituloServicios {
-    font-size: 1.1rem;
-  }
-  .container2 {
-    grid-auto-rows: 30rem;
-    width: 96%;
-  }
-  .container3 {
-    display: grid;
-    gap: 15px;
-    grid-auto-rows: 36rem;
-    width: 95%;
-  }
+    .nav_logo {
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    .contenido_contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaContacto {
+        width: 80%;
+    }
+    .subtituloProductos {
+        font-size: 1.1rem;
+    }
+    .subtituloServicios {
+        font-size: 1.1rem;
+    }
+    .container2 {
+        grid-auto-rows: 30rem;
+        width: 96%;
+    }
+    .container3 {
+        display: grid;
+        gap: 15px;
+        grid-auto-rows: 36rem;
+        width: 95%;
+    }
 }
 
 @media (max-width: 858px) {
-  .cajaContacto {
-    width: 80%;
-  }
-  .checkbtn {
-    display: block;
-  }
-  .nav_ul {
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    background: #69a3a3;
-    top: 100px;
-    right: -110%;
-    text-align: center;
-    transition: all .5s;
-    display: flex;
-    flex-direction: column;
-  }
-  .nav_li {
-    display: block;
-    height: 100%;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  li a:hover, li a.active {
-    background: none;
-    color: #0d2033;
-  }
-  #check:checked ~ .nav_ul {
-    left: 0;
-  }
-  .footer .grupo_1 {
-    width: 85%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
-    padding: 35px 0px;
-  }
-  .tituloContacto {
-    font-size: 1.6rem;
-  }
-  .subtituloProductos {
-    font-size: 1rem;
-  }
-  .subtituloServicios {
-    font-size: 1rem;
-  }
-  .container2 {
-    grid-auto-rows: 29rem;
-    width: 94%;
-  }
-  .container3 {
-    grid-auto-rows: 35rem;
-    width: 93%;
-  }
+    .cajaContacto {
+        width: 80%;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .nav_ul {
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+        background: #69a3a3;
+        top: 100px;
+        right: -110%;
+        text-align: center;
+        transition: all 0.5s;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_li {
+        display: block;
+        height: 100%;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    li a:hover,
+    li a.active {
+        background: none;
+        color: #0d2033;
+    }
+    #check:checked ~ .nav_ul {
+        left: 0;
+    }
+    .footer .grupo_1 {
+        width: 85%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 35px 0px;
+    }
+    .tituloContacto {
+        font-size: 1.6rem;
+    }
+    .subtituloProductos {
+        font-size: 1rem;
+    }
+    .subtituloServicios {
+        font-size: 1rem;
+    }
+    .container2 {
+        grid-auto-rows: 29rem;
+        width: 94%;
+    }
+    .container3 {
+        grid-auto-rows: 35rem;
+        width: 93%;
+    }
 }
 
 @media (max-width: 480px) {
-  .cajaContacto {
-    width: 100%;
-  }
-  .tituloContacto {
-    font-size: 1.4rem;
-  }
-  .subtituloProductos {
-    font-size: 1rem;
-  }
-  .subtituloServicios {
-    font-size: 1rem;
-  }
-  .container2 {
-    grid-auto-rows: 28rem;
-    width: 91%;
-  }
-  .container3 {
-    grid-auto-rows: 33rem;
-    width: 91%;
-  }
+    .cajaContacto {
+        width: 100%;
+    }
+    .tituloContacto {
+        font-size: 1.4rem;
+    }
+    .subtituloProductos {
+        font-size: 1rem;
+    }
+    .subtituloServicios {
+        font-size: 1rem;
+    }
+    .container2 {
+        grid-auto-rows: 28rem;
+        width: 91%;
+    }
+    .container3 {
+        grid-auto-rows: 33rem;
+        width: 91%;
+    }
 }
 
 @media (max-width: 375px) {
-  .tituloContacto {
-    font-size: 1.2rem;
-  }
-  .nav_li {
-    display: block;
-    line-height: 5px;
-  }
-  .nav_ul {
-    display: fixed;
-  }
-  .container2 {
-    grid-auto-rows: 28rem;
-    width: 89%;
-  }
-  .container3 {
-    grid-auto-rows: 33rem;
-    width: 89%;
-  }
+    .tituloContacto {
+        font-size: 1.2rem;
+    }
+    .nav_li {
+        display: block;
+        line-height: 5px;
+    }
+    .nav_ul {
+        display: fixed;
+    }
+    .container2 {
+        grid-auto-rows: 28rem;
+        width: 89%;
+    }
+    .container3 {
+        grid-auto-rows: 33rem;
+        width: 89%;
+    }
 }
 /*# sourceMappingURL=estilos.css.map */
